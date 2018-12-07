@@ -1,10 +1,9 @@
 <template>
     <div>
-      <div class="container">
-          <h1>Nest Blog Tutorial</h1>
-          <p> This is the description of the blog built with Nest.js, Vue.js and MongoDB</p>
-      </div>
 
+       <h1>Nest Blog Tutorial</h1>
+       <p> This is the description of the blog built with Nest.js, Vue.js and MongoDB</p>
+    
         <div class="row">
            <div class="col-md-4" v-for="post in posts" :key="post._id">
               <div class="card mb-4 shadow-sm">
