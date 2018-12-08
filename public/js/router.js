@@ -7,6 +7,7 @@ import PostComponent from './components/post/Post';
 
 Vue.use(VueRouter);
 
+
 const routes = [
     { path: '/', redirect: { name: 'Home' } },
     { path: '/home', name: 'Home', component: HomeComponent },

@@ -16,5 +16,4 @@ const POSTS = [
         author: "Olususi Oluyemi", date_posted: "05-12-2018"
     }
 ];
-
 export default POSTS;
